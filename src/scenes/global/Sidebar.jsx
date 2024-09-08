@@ -11,9 +11,9 @@ import ReceiptOutlinedIcon from "@mui/icons-material/ReceiptOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import CalendarTodayOutlinedIcon from "@mui/icons-material/CalendarTodayOutlined";
 import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
-import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
-import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutlined";
-import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
+import BarChartOutlinedIcon from "@mui/icons-material/MenuBook";
+import PieChartOutlineOutlinedIcon from "@mui/icons-material/Groups";
+import TimelineOutlinedIcon from "@mui/icons-material/TipsAndUpdates";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 import profileImage from "../../assets/profile-pic.png";
@@ -109,10 +109,10 @@ const Sidebar = () => {
                                     fontWeight="bold"
                                     sx={{ m: "10px 0 0 0" }}
                                 >
-                                Hello harshal
+                                Hello Sixpathssage
                                 </Typography>
                                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                                Software Engineer
+                                
                                 </Typography>
                             </Box>
                         </Box>
@@ -191,24 +191,24 @@ const Sidebar = () => {
                             color={colors.grey[300]}
                             sx={{ m: "15px 0 5px 20px" }}
                         >
-                            Charts
+                            Features
                         </Typography>
                         <Item
-                            title="Bar Chart"
+                            title="Learning Tab"
                             to="/bar"
                             icon={<BarChartOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
                         <Item
-                            title="Pie Chart"
+                            title="Group Discussion"
                             to="/pie"
-                            icon={<PieChartOutlineOutlinedIcon />}
+                            icon={<PieChartOutlineOutlinedIcon/>}
                             selected={selected}
                             setSelected={setSelected}
                         />
                         <Item
-                            title="Line Chart"
+                            title="Updates"
                             to="/line"
                             icon={<TimelineOutlinedIcon />}
                             selected={selected}

@@ -32,6 +32,26 @@ const departmentsOptions = [
     { id: 2, name: "Finance" },
     { id: 3, name: "Engineering" },
     { id: 4, name: "Marketing" },
+    { id:5,name:"Ministry of Defence"},
+    {id:6,name:"Ministry of Agriculture and Farmers Welfare"},
+    {id:7,name:"Ministry of Rural Development"},
+    {id:8,name:"Ministry of Environment, Forest and Climate Change"},
+    {id:9,name:"Ministry of Labour and Employment"},
+    {id:10,name:"Ministry of Electronics and Information Technology (MeitY)"},
+    {id:11,name:"Ministry of Commerce and Industry"},
+    {id:12,name:"Ministry of Railways"},
+    {id:13,name:"Ministry of Urban Development"},
+    {id:14,name:"Ministry of Housing and Urban Affairs"},
+    {id:15,name:" Ministry of External Affairs"},
+    {id:16,name:"Ministry of Law and Justice"},
+    {id:17,name:"Ministry of Power"},
+    {id:18,name:"Ministry of Road Transport and Highways"},
+    {id:19,name:"Ministry of Science and Technology"},
+    {id:20,name:"Ministry of Women and Child Development"},
+    {id:21,name:"Ministry of Social Justice and Empowerment"},
+    
+
+
 ];
 
 const Form = () => {
